@@ -1,28 +1,53 @@
 enable    : true
 topTitle  : A LIST OF SERVICES
 title     : Our Service.
-subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+subtitle  : At Richard Liu & Company, Inc., we provide value-added services to corporate and individual clients in the areas of professional advice, assurance and tax services.
 item      :
-  - icon  : tf-ion-ios-copy-outline
-    title : Branding
+  - icon  : tf-ion-ios-calendar-outline
+    title : ACCOUNTING CYCLES
     list  :
-      - name : Brand Strategy
-      - name : Advertising / Campaigns
-      - name : Product Design
-      - name : Video / Photography
-
-  - icon  : tf-ion-ios-alarm-outline
-    title : Branding
-    list  :
-      - name : Web Design
-      - name : E- Commerce Site Design
-      - name : App Development
-      - name : Mobile UI Design
+      - name : We can assist you in finding the right solution for your monthly, quarterly and semi-annual bookkeeping requirements.
 
   - icon  : tf-ion-ios-book-outline
-    title : IOS App Development
+    title : FINANCIAL STATEMENTS
     list  :
-      - name : Game Development
-      - name : Game Design
-      - name : Social Media Marketing
-      - name : Mobile UI Design
+      - name : Richard Liu & Company, Inc. is experienced in helping you choose the correct business model.
+
+  - icon  : tf-ion-ios-people
+    title : BUSINESS CONSULTING
+    list  :
+      - name : Richard Liu & Company, Inc. can service both start-up and established businesses with growth options for the company, financial statement reading, human resource issues, financing operations and more.
+
+  - icon  : tf-ion-ios-contact
+    title : ADVICE FOR NON-RESIDENTS
+    list  :
+      - name : Personal tax returns for relevant Canadian source income.
+      - name : Rental income tax returns.
+      - name : Clearance certificates required when disposing of Canadian property.
+      - name : Applications for reduced withholding taxes.
+
+
+
+
+  - icon  : tf-ion-ios-bookmarks-outline
+    title : ESTATE SERVICES
+    list  :
+      - name : With the increased cost of probate fees and executor fees, clients have found that sharing responsibilities can result in major cost savings. We are experienced in estate services including estate planning, executor assistance, and consulting.
+
+
+
+  - icon  : tf-ion-ios-copy-outline
+    title : INCORPORATION
+    list  :
+      - name : Richard Liu & Company, Inc. can service both start-up and established businesses with growth options for the company, financial statement reading, human resource issues, financing operations and more.    
+  
+  - icon  : tf-ion-ios-calendar-outline
+    title : PAYROLL CYCLES
+    list  :
+      - name : We can assist you with finding the right solution for your payroll cycles. Related services include direct deposits, annual T4 processing, and WCB reporting.
+  
+  - icon  : tf-ion-ios-book-outline
+    title : TAX RETURNS
+    list  :
+      - name : Personal, corporate, trust, PST, GST and charity returns will be professionally prepared. Our staff are continually updating their knowledge so the latest tax changes will always be considered.
+            

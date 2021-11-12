@@ -4,10 +4,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="video-player">
+                <div class="video-player-disabled">
                     <img class="img-fluid rounded" src="{{ with .Site.Params.hero.videoThumb }}{{.| absURL }}{{ end }}" alt="video-thumb">
                     <a class="play-icon" href="javascript:void(0)">
-                        <i class="tf-ion-play" data-video="{{ with .Site.Params.hero.videoURL }}{{.}}{{ end }}?autoplay=1"></i>
+                        <i class="tf-ion-play-disabled" data-video="{{ with .Site.Params.hero.videoURL }}{{.}}{{ end }}?autoplay=1"></i>
                     </a>
                 </div>
             </div>

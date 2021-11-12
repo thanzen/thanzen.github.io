@@ -1,4 +1,5 @@
-baseURL = "https://demo.gethugothemes.com/navigator/"
+# baseURL = "https://demo.gethugothemes.com/navigator/"
+baseURL = "http://localhost:2020/"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "navigator-hugo"
@@ -17,10 +18,6 @@ pygmentsCodeFences = true
 defaultContentLanguageInSubdir = true
 DefaultContentLanguage = "en"
 
-# Site Params
-[params]
-logo = "images/logo.png"
-
 # Gestion des langues : FR / EN / NL / DE
 [[Params.listeLangues]]
 code = "en"
@@ -34,13 +31,13 @@ description = "This is meta description"
 [Languages.en]
 weight = 2
 languageCode = "en-us"
-title = "Example site multi-language"
+title = "Chartered Professional Accountants"
 dateFormat = "January 2, 2006"
 home = "Home"
-logo = "images/logo.png"
-menufixed = false
+logo = "images/logo2.png"
+menufixed = true
 
-footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
+footerDescription = "Richard Liu & Company, Inc. is a well-established Chartered Professional Accounting firm located in Vancouver, BC."
 footerServiceTitle = "Service"
 footerQuicklinkTitle = "Quicklinks"
 footerAboutTitle = "About"
@@ -55,23 +52,23 @@ expire_days = 2
 # Hero Area Section
 [Languages.en.params.hero]
 enable  = true
-heading = "We love to make brands grow"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
-button  = true
+heading = "Richard Liu & Company"
+description = "Richard Liu & Company, Inc. is a well-established Chartered Professional Accounting firm located in Vancouver, BC. We provide a wide range of accounting, tax and compliance services, as well as business management and advisory to owner-managed businesses, professional corporations and individuals."
+button  = false
 btnText = "Know More"
 btnURL  = "https://themefisher.com/"
-videoThumb = "images/slider/video-player-thumb.jpg"
+videoThumb = "images/slider/home-top-sm.jpg"
 videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
 # About 2 Section
 [Languages.en.params.aboutSm]
 enable  = true
-title   = "We have explored the digital landscape with passion for a long time"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
+title   = "What makes us unique from other CPA firms?"
+description = "Our experience encompasses a broad spectrum of industries, including real estate, construction, retailers, restaurants, importers/exporters, professionals, manufacturers and other owner-managed businesses."
 
 # Blog Section On Homepage
 [Languages.en.params.blog]
-enable  = true
+enable  = false
 topTitle= "OUR UNTOLD STORY"
 title   = "Blog."
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
@@ -81,17 +78,20 @@ subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reici
 enable  = true
 topTitle= "DROP US A NOTE"
 title   = "Contact Us."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-address = "14/05, Stockhome <br> Victori Palace , United States"
-phone   = "(03) 9283 2617"
-fax     = "+61 3827 3590"
+subtitle = "To request a free consultation, simply contact us!"
+officehoursTitle = "Office Hours"
+officehours = "9:00 a.m. to 5:00 p.m. Monday to Friday.<br>Available after hours and on weekends by appointment."
+address = "550 West Broadway, Suite 525 <br> Vancouver, BC, Canada <br> V5Z 0E9"
+phone   = "604.638.9991"
+fax     = "604.325.7557"
+email   = "info@richardliucga.com"
 facebook= "https://www.facebook.com/"
 twitter = "https://twitter.com/"
 linkedin= "https://www.linkedin.com/"
 dribbble= "https://dribbble.com/"
 instagram= "https://www.instagram.com/"
-mapLatitude = "51.507351"
-mapLongitude= "-0.127758"
+mapLatitude = "49.2632022"
+mapLongitude= "-123.1166529"
 mapMarker   = "images/marker.png"
 
 # Call to Action Section on About Page
@@ -99,7 +99,7 @@ mapMarker   = "images/marker.png"
 enable  = true
 bg      = "images/call-to-action/call-to-action-bg-2.jpg"
 title   = "Let's Create Something Together"
-subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+subtitle= ""
 btnText = "Contact Us"
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
@@ -115,18 +115,22 @@ weight  = 2
 name    = "service"
 url     = "service"
 weight  = 3
-[[menu.nav]]
-name    = "portfolio"
-url     = "portfolio"
-weight  = 4
-[[menu.nav]]
-name    = "blog"
-url     = "blog"
-weight  = 5
+# [[menu.nav]]
+# name    = "portfolio"
+# url     = "portfolio"
+# weight  = 4
+# [[menu.nav]]
+# name    = "blog"
+# url     = "blog"
+# weight  = 5
 [[menu.nav]]
 name    = "contact"
 url     = "contact"
 weight  = 6
+[[menu.nav]]
+name    = "中文"
+url     = "service_cn"
+weight  = 7
 
 # Footer Service Menu
 [[menu.service]]
@@ -144,18 +148,15 @@ weight  = 3
 
 # Footer Quick links Menu
 [[menu.quicklink]]
-name    = "partners"
+name    = "about"
 url     = "about"
 weight  = 1
 [[menu.quicklink]]
-name    = "about"
-url     = "about"
+name    = "contact"
+url     = "contact"
 weight  = 2
 [[menu.quicklink]]
-name    = "faqs"
-url     = "about"
+name    = "service"
+url     = "service"
 weight  = 3
-[[menu.quicklink]]
-name    = "badges"
-url     = "about"
-weight  = 4
+

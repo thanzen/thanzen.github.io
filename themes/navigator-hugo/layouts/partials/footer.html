@@ -3,11 +3,11 @@
     <div class="top-footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3 col-md-3 col-lg-3">
+                <div class="col-sm-4 col-md-4 col-lg-4">
                     <h3>{{ .Site.Params.footerAboutTitle }}</h3>
                     {{ with .Site.Params.footerDescription }}<p>{{ . }}</p>{{ end }}
                 </div>
-                <div class="col-sm-3 col-md-3 col-lg-3">
+                <div class="col-sm-4 col-md-4 col-lg-4">
                     <h3>{{ .Site.Params.footerServiceTitle }}</h3>
                     <ul>
                         {{ range .Site.Menus.service }}
@@ -17,7 +17,7 @@
                         {{ end }}
                     </ul>
                 </div>
-                <div class="col-sm-3 col-md-3 col-lg-3">
+                <div class="col-sm-4 col-md-4 col-lg-4">
                     <h3>{{ .Site.Params.footerQuicklinkTitle }}</h3>
                     <ul>
                         {{ range .Site.Menus.quicklink }}
@@ -27,7 +27,7 @@
                         {{ end }}
                     </ul>
                 </div>
-                <div class="col-sm-3 col-md-3 col-lg-3">
+                <div class="col-sm-4 col-md-4 col-lg-4" style="display:none">
                     <h3>{{ .Site.Params.footerSubscribeTitle }}</h3>
                     <form class="subscribe-form">
                         <div class="form-group">
@@ -39,7 +39,7 @@
             </div>
         </div>
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom" style="display:none">
         <h5>Copyright 2021. All rights reserved.</h5>
         <h6>Design and Developed by Themefisher
             <br>Get More

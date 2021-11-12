@@ -1,13 +1,15 @@
-enable    : true
+enable    : false
 topTitle   : LITTLE MORE BRIEF
 title     : About Us.
-subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+subtitle  : Need sub title
 tabItem   :
   - id        : philosophy
     title     : Our Philosophy
     heading   : We Create Designs and technology
     content   : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!
+      We value our clients and strive to build lasting partnerships that bring value to their lives and businesses. 
+      <br>
+      We truly believe that our success is a direct result of our clients’ success!
     image     : images/company/company-image.jpg
 
   - id        : mission

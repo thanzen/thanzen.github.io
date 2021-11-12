@@ -1,13 +1,13 @@
 enable  : true
 item    :
   - positionRight : false
-    image : images/about/about-1.jpg
-    title : Creativity is in our blood
+    image : images/about/about-new-1.jpg
+    title : Our Clients Matter
     description : >
-      Curabitur felis nibh, imperdiet eu erat non, luctus cursus lectus. Donec maximus diam leo, sed fringilla nisl auctor eget. Donec dictum neque est, ac faucibus ex blandit a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quo minima ab aperiam molestiae natus repellendus neque culpa iure, nemo veritatis explicabo facilis, officia, saepe! Et corrupti odit, non deserunt.
+      At Richard Liu & Company, Inc. we value our clients and strive to build lasting partnerships that bring value to their lives and businesses. We truly believe that our success is a direct result of our clients’ success.
 
   - positionRight : true
-    image : images/about/about-2.jpg
-    title : We think out of the Box
+    image : images/about/about-new-2.jpg
+    title : You Can Rely On Us
     description : >
-      Curabitur felis nibh, imperdiet eu erat non, luctus cursus lectus. Donec maximus diam leo, sed fringilla nisl auctor eget. Donec dictum neque est, ac faucibus ex blandit a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quo minima ab aperiam molestiae natus repellendus neque culpa iure, nemo veritatis explicabo facilis, officia, saepe! Et corrupti odit, non deserunt.
+      At Richard Liu & Company, Inc., we provide value-added services to corporate and individual clients in the areas of professional advice, assurance and tax services.
