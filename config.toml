@@ -1,6 +1,6 @@
 # baseURL = "https://demo.gethugothemes.com/navigator/"
 # baseURL = "http://localhost:2020/"
-baseURL = "https://thanzen.github.io/"
+baseURL = "https://thanzen.github.io/public/"
 languageCode = "en-us"
 title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "navigator-hugo"
