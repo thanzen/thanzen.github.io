@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Our Services on Chartered Professional Accountants</title>
-    <link>http://localhost:2020/service_cn/</link>
+    <link>https://thanzen.github.io/service_cn/</link>
     <description>Recent content in Our Services on Chartered Professional Accountants</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Jul 2018 14:53:13 +0600</lastBuildDate><atom:link href="http://localhost:2020/service_cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jul 2018 14:53:13 +0600</lastBuildDate><atom:link href="https://thanzen.github.io/service_cn/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
